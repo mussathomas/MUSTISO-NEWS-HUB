@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Forms</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .form-card {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .form-card:hover {
+            transform: scale(1.05);
+        }
+
+        .download-icon {
+            font-size: 2rem;
+            color: #007bff;
+            transition: color 0.3s;
+        }
+
+        .download-icon:hover {
+            color: #0056b3;
+        }
+        footer {
+     background-color: #173459;
+     color: white;
+     padding: 1em;
+     text-align: center;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+ }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="my-5 text-center">Download Forms</h1>
+
+        <div class="row">
+            <!-- Form 1 -->
+            <div class="col-md-6">
+                <div class="form-card text-center">
+                    <h3>Student's Clearance Form </h3>
+                    <p>the form to clear .</p>
+                    <a href="form1.pdf" download>
+                        <i class="fas fa-download download-icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Form 2 -->
+            <div class="col-md-6">
+                <div class="form-card text-center">
+                    <h3>Off - Campus Form </h3>
+                    <p>the form that gives description of students staying out of university hostels.</p>
+                    <a href="form2.pdf" download>
+                        <i class="fas fa-download download-icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Form 3 -->
+            <div class="col-md-6">
+                <div class="form-card text-center">
+                    <h3>Permission Form </h3>
+                    <p>The form that allows a student to be 0ut of university compound .</p>
+                    <a href="form3.pdf" download>
+                        <i class="fas fa-download download-icon"></i>
+                    </a>
+                </div>
+            </div>
+ 
+            <!-- Form 4 -->
+            <div class="col-md-6">
+                <div class="form-card text-center">
+                    <h3>MUSTSO Constitution (2017)</h3>
+                    <p>The laws and by laws (MUSTSO).</p>
+                    <a href="form4.pdf" download>
+                        <i class="fas fa-download download-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optional for some interactive elements) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <footer>
+        All rights & engagements reserved
+    </footer>
+</body>
+
+</html>
